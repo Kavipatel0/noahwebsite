@@ -13,6 +13,11 @@ export default function Home() {
       }}
     >
       <div className="w-full max-w-md">
+        <div className="mb-6 text-center">
+          <div className="inline-block rounded-2xl bg-black/35 px-5 py-3 text-xl font-semibold tracking-tight text-white shadow-lg ring-1 ring-white/35 backdrop-blur-md">
+            Hi im Noah and im GAYYY!
+          </div>
+        </div>
         <div className="relative mx-auto aspect-square w-full overflow-hidden rounded-3xl bg-white/20 shadow-2xl ring-1 ring-white/40 backdrop-blur-md">
           <Image
             src={friendPhoto}
@@ -22,6 +27,11 @@ export default function Home() {
             sizes="(max-width: 768px) 90vw, 420px"
             className="object-cover"
           />
+        </div>
+        <div className="mt-6 text-center">
+          <div className="inline-block rounded-2xl bg-black/35 px-5 py-3 text-lg font-semibold tracking-tight text-white shadow-lg ring-1 ring-white/35 backdrop-blur-md">
+            Im sucking andy for a quicky bil $$$
+          </div>
         </div>
       </div>
       <style>{`
